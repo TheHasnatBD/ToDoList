@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginTop="20dp"
+    tools:context="com.infobox.hasnat.to_dolist.MainActivity">
+
+    <EditText
+        android:id="@+id/title_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Do Title"
+        android:textColor="@color/colorPrimary"
+        android:background="#f9f9f9f9"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/do_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter about Do"
+        android:textColor="@color/colorPrimary"
+        android:minLines="2"
+        android:background="#f9f9f9f9"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        />
+    <Button
+        android:id="@+id/goListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="View List"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        />
+
+
+</LinearLayout>
