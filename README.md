@@ -2,7 +2,7 @@
 
  ## To-Do List app using SQLite database for local storage. (Full CRUD)
 
-#### Using SQLite
+### Using SQLite
 * CREATE
 * READ
 * UPDATE
